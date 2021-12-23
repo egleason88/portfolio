@@ -1,7 +1,7 @@
 import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
 
 const HomePage = () => (
-  <Stack style={{ paddingTop: "15px" }} spacing={6}>
+  <Stack style={{ paddingTop: "40px" }} spacing={6}>
     <Grid container spacing={3}>
       <Grid item md={5} xs={12}>
         <Box
@@ -21,7 +21,7 @@ const HomePage = () => (
           <Typography>
             Experienced UX Designer with a demonstrated history of working in the research industry 
             and higher education. Skilled in User Research and Testing, Wire frames, Mockup, Prototyping and Agile Methodology. 
-            Graduating with a degree in Industrial Design and a Master of Science M.Sc.) in Human Factors from Loughborough University
+            Graduating with a degree in Industrial Design and a Master of Science (M.Sc.) in Human Factors from Loughborough University
             has set me up with careers long desire to imporove a users experience in all areas of design.
           </Typography>
         </Stack>

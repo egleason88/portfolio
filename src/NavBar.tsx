@@ -26,7 +26,7 @@ const NavBar = () => {
       }}
     >
       <div style={{ display: "flex", flexGrow: "1" }}>
-        <StyledNavLink to="/" style={{ boxShadow: "inset 0px 8px teal" }}>
+        <StyledNavLink to="/" style={{ boxShadow: "inset 0px 6px teal" }}>
           <Stack>
             <Typography>Elizabeth Gleason</Typography>
             <Typography>User Experience Designer</Typography>
