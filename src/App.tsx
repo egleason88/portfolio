@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import { Container } from "@mui/material";
 import HomePage from "./pages/Home/HomePage";
 import AboutPage from "./pages/About/AboutPage";
+import PortfolioRoutes from "./pages/Portfolio/PortfolioRoutes";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       >
         <NavBar />
         <Routes>
-        <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects/*" element={<PortfolioRoutes />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </Container>

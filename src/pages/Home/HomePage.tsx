@@ -1,4 +1,6 @@
 import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
+import ProjectCollection from "../Portfolio/ProjectCollection";
+import { Projects } from "../Portfolio/Projects";
 
 const HomePage = () => (
   <Stack style={{ paddingTop: "40px" }} spacing={6}>
@@ -19,10 +21,13 @@ const HomePage = () => (
             User Experience Designer
           </Typography>
           <Typography>
-            Experienced UX Designer with a demonstrated history of working in the research industry 
-            and higher education. Skilled in User Research and Testing, Wire frames, Mockup, Prototyping and Agile Methodology. 
-            Graduating with a degree in Industrial Design and a Master of Science (M.Sc.) in Human Factors from Loughborough University
-            has set me up with careers long desire to imporove a users experience in all areas of design.
+            Experienced UX Designer with a demonstrated history of working in
+            the research industry and higher education. Skilled in User Research
+            and Testing, Wire frames, Mockup, Prototyping and Agile Methodology.
+            Graduating with a degree in Industrial Design and a Master of
+            Science (M.Sc.) in Human Factors from Loughborough University has
+            set me up with careers long desire to imporove a users experience in
+            all areas of design.
           </Typography>
         </Stack>
       </Grid>
@@ -32,36 +37,7 @@ const HomePage = () => (
       <Typography variant="h3" fontWeight={300} textAlign={"center"}>
         Case Studies
       </Typography>
-      <Grid container spacing={4}>
-        <Grid item md={6} xs={12}>
-          <Box
-            width={"100%"}
-            height={"150px"}
-            style={{ backgroundColor: "gray" }}
-          />
-        </Grid>
-        <Grid item md={6} xs={12}>
-          <Box
-            width={"100%"}
-            height={"150px"}
-            style={{ backgroundColor: "gray" }}
-          />
-        </Grid>
-        <Grid item md={6} xs={12}>
-          <Box
-            width={"100%"}
-            height={"150px"}
-            style={{ backgroundColor: "gray" }}
-          />
-        </Grid>
-        <Grid item md={6} xs={12}>
-          <Box
-            width={"100%"}
-            height={"150px"}
-            style={{ backgroundColor: "gray" }}
-          />
-        </Grid>
-      </Grid>
+      <ProjectCollection projects={Projects.slice(0, 4)} />
     </Stack>
   </Stack>
 );

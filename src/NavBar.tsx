@@ -18,40 +18,46 @@ const StyledNavLink = styled(NavLink)`
 
 const NavBar = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        borderTop: "5px solid teal",
-        borderBottom: "5px solid teal",
-      }}
-    >
-      <div style={{ display: "flex", flexGrow: "1" }}>
-        <StyledNavLink to="/" style={{ boxShadow: "inset 0px 6px teal" }}>
-          <Stack>
-            <Typography>Elizabeth Gleason</Typography>
-            <Typography>User Experience Designer</Typography>
-          </Stack>
-        </StyledNavLink>
-      </div>
-      <div style={{ display: "flex" }}>
-        <StyledNavLink to="/about">
-          <Typography
-            style={{
-              display: "inline-flex",
-            }}
-          >
-            About Me
-          </Typography>
-        </StyledNavLink>
-        <StyledNavLink to="/projects">
-          <Typography style={{ display: "inline-flex" }}>Portfolio</Typography>
-        </StyledNavLink>
-        <StyledNavLink to="/contact">
-          <Typography style={{ display: "inline-flex" }}>Contact Me</Typography>
-        </StyledNavLink>
-        <StyledNavLink to="/resume">
-          <Typography style={{ display: "inline-flex" }}>Resume</Typography>
-        </StyledNavLink>
+    <div style={{ paddingBottom: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          borderTop: "5px solid teal",
+          borderBottom: "5px solid teal",
+        }}
+      >
+        <div style={{ display: "flex", flexGrow: "1" }}>
+          <StyledNavLink to="/" style={{ boxShadow: "inset 0px 6px teal" }}>
+            <Stack>
+              <Typography>Elizabeth Gleason</Typography>
+              <Typography>User Experience Designer</Typography>
+            </Stack>
+          </StyledNavLink>
+        </div>
+        <div style={{ display: "flex" }}>
+          <StyledNavLink to="/about">
+            <Typography
+              style={{
+                display: "inline-flex",
+              }}
+            >
+              About Me
+            </Typography>
+          </StyledNavLink>
+          <StyledNavLink to="/projects">
+            <Typography style={{ display: "inline-flex" }}>
+              Portfolio
+            </Typography>
+          </StyledNavLink>
+          <StyledNavLink to="/contact">
+            <Typography style={{ display: "inline-flex" }}>
+              Contact Me
+            </Typography>
+          </StyledNavLink>
+          <StyledNavLink to="/resume">
+            <Typography style={{ display: "inline-flex" }}>Resume</Typography>
+          </StyledNavLink>
+        </div>
       </div>
     </div>
   );
