@@ -27,9 +27,9 @@ const NavBar = () => {
         }}
       >
         <div style={{ display: "flex", flexGrow: "1" }}>
-          <StyledNavLink to="/" style={{ boxShadow: "inset 0px 6px teal" }}>
+          <StyledNavLink to="/" style={{ boxShadow: "inset 0px 12px teal" }}>
             <Stack>
-              <Typography>Elizabeth Gleason</Typography>
+              <Typography fontSize={25}>Elizabeth Gleason</Typography>
               <Typography>User Experience Designer</Typography>
             </Stack>
           </StyledNavLink>
@@ -47,11 +47,6 @@ const NavBar = () => {
           <StyledNavLink to="/projects">
             <Typography style={{ display: "inline-flex" }}>
               Portfolio
-            </Typography>
-          </StyledNavLink>
-          <StyledNavLink to="/contact">
-            <Typography style={{ display: "inline-flex" }}>
-              Contact Me
             </Typography>
           </StyledNavLink>
           <StyledNavLink to="/resume">

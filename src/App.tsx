@@ -5,6 +5,7 @@ import { Container } from "@mui/material";
 import HomePage from "./pages/Home/HomePage";
 import AboutPage from "./pages/About/AboutPage";
 import PortfolioRoutes from "./pages/Portfolio/PortfolioRoutes";
+import ResumePage from "./pages/Resume/ResumePage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects/*" element={<PortfolioRoutes />} />
+          <Route path="/resume" element={<ResumePage />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </Container>

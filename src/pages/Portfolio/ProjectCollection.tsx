@@ -1,4 +1,4 @@
-import { Card, Grid } from "@mui/material";
+import { Card, CardHeader, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { IProject } from "./Projects";
@@ -6,24 +6,27 @@ import { IProject } from "./Projects";
 const ProjectCard = ({ project }: { project: IProject }) => {
   const [isHover, setIsHover] = useState(false);
   return (
-    <Link to={`/projects/${project.id}`}>
-      <Card
-        square
-        elevation={isHover ? 12 : 1}
-        onMouseEnter={() => setIsHover(true)}
-        onMouseLeave={() => setIsHover(false)}
-      >
-        <img
-          src={project.img}
-          alt={project.name}
-          width={"100%"}
-          height={"auto"}
-          style={{
-            objectFit: "cover",
-          }}
-        />
-      </Card>
-    </Link>
+    <>
+      <Typography fontSize={25}>{project.name}</Typography>
+      <Link to={`/projects/${project.id}`}>
+        <Card
+          square
+          elevation={isHover ? 12 : 1}
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
+        >
+          <img
+            src={project.img}
+            alt={project.name}
+            width={"100%"}
+            height={"auto"}
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </Card>
+      </Link>
+    </>
   );
 };
 
