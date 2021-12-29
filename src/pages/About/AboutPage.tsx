@@ -2,9 +2,10 @@ import { Grid, Stack, Typography } from "@mui/material";
 
 const AboutPage = () => {
   return (
-    <Grid container spacing={10}>
+    <Grid container spacing={12}>
       <Grid item md={6} xs={12}>
-        <Stack spacing={3}>
+        <Stack spacing={2}style={{ paddingTop: "20px" }}>
+        <Typography variant={"h1"} fontSize={30}>About me</Typography>
           <Typography>
             After graduating with a BaHons in Industrial Design and a Masters in
             Ergonomics / Human Factors from Loughborough University, I joined
@@ -24,8 +25,8 @@ const AboutPage = () => {
         </Stack>
       </Grid>
       <Grid item md={6} xs={12}>
-        <Stack spacing={3}>
-          <Typography variant={"h2"}>Key Skills</Typography>
+      <Stack spacing={2}style={{ paddingTop: "60px" }}>
+          <Typography variant={"h2"} fontSize={24}>Key Skills</Typography>
           <ul>
             <li>
               <Typography>

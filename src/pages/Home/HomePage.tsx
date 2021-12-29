@@ -7,17 +7,17 @@ const HomePage = () => (
     <Grid container spacing={3}>
       <Grid item md={5} xs={12}>
         <Box
-          width={"100%"}
+          width={"400px"}
           height={"250px"}
           style={{ backgroundColor: "gray" }}
         ></Box>
       </Grid>
       <Grid item md={7} xs={12}>
-        <Stack>
-          <Typography variant="h2" fontWeight={300}>
+        <Stack style={{ paddingTop: "0px" }} spacing={2}>
+          <Typography variant="h2" fontSize={40} fontWeight={300}>
             Elizabeth Gleason
           </Typography>
-          <Typography variant="h4" fontWeight={200}>
+          <Typography variant="h4" fontSize={24} fontWeight={200}>
             User Experience Designer
           </Typography>
           <Typography>
@@ -34,7 +34,7 @@ const HomePage = () => (
     </Grid>
     <Divider style={{ border: "3px solid teal" }} />
     <Stack spacing={3}>
-      <Typography variant="h3" fontWeight={300} textAlign={"center"}>
+      <Typography variant="h3" fontSize={30} fontWeight={300} textAlign={"center"}>
         Case Studies
       </Typography>
       <ProjectCollection projects={Projects.slice(0, 4)} />
