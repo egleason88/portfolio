@@ -73,9 +73,9 @@ export const Projects = [
     name: "Insight",
     img: "/portfolio/images/Insight/Insight5.png",
     overview:
-      "Insight brings togethter data froma number of differentat apps and provides a way to dig deeper in to that data an= to gaina better understanding of things that are happening on campus",
+      "Insight brings togethter data from a number of differant apps and provides a way to dig deeper in to that data and to gain a better understanding of things that are happening on campus",
     challenge:
-      "Thorught hre process of continusu discvoery it was detemeined useres needed quicker ways to create visualisatins and saving, adding and reusing slices and dimenssions was one of them.",
+      "Through the process of continuous discovery it was determined users needed quicker ways to create visualisations and saving, adding and reusing slices and dimenssions was one of them.",
     results:
       "Through in app feedback we determned 100% positive respponse to the changes we had made",
     activities: [
@@ -105,6 +105,11 @@ export const Projects = [
       "User Bulling",
       "User Bribery",
     ],
-    images: [{ img: "/portfolio/images/Insight/Insight1.png", title: "test" }],
+    images: [
+      { img: "/portfolio/images/Blackboard/Bb1.png", title: "test" },
+      { img: "/portfolio/images/Blackboard/Bb2.png", title: "test" },
+      { img: "/portfolio/images/Blackboard/Bb3.png", title: "test" },
+      { img: "/portfolio/images/Blackboard/Bb4.png", title: "test" },
+    ],
   },
 ] as IProject[];
