@@ -9,30 +9,27 @@ const StyledNavLink = styled(NavLink)`
   align-items: center;
   justify-content: center;
   &:hover {
-    box-shadow: inset 0px -5px teal;
+    box-shadow: inset 0px -5px ${({ theme }) => theme.palette.primary.main};
   }
   &.active {
-    box-shadow: inset 0px -15px teal;
+    box-shadow: inset 0px -15px ${({ theme }) => theme.palette.primary.main};
+    transition: box-shadow 0.5s;
   }
 `;
 
-const NavBar = () => {
+const NavBar = styled(({ className }: { className?: string }) => {
   return (
-    <div style={{ paddingBottom: "20px" }}>
-      <div
-        style={{
-          display: "flex",
-          borderTop: "5px solid teal",
-          borderBottom: "5px solid teal",
-        }}
-      >
+    <div className={className}>
+      <div className="navContainer">
         <div style={{ display: "flex", flexGrow: "1" }}>
-          <StyledNavLink to="/" style={{ boxShadow: "inset 0px 12px teal" }}>
-            <Stack>
-              <Typography fontSize={25}>Elizabeth Gleason</Typography>
-              <Typography>User Experience Designer</Typography>
-            </Stack>
-          </StyledNavLink>
+          <div className="navMain" style={{ display: "inline-flex" }}>
+            <StyledNavLink to="/">
+              <Stack>
+                <Typography fontSize={25}>Elizabeth Gleason</Typography>
+                <Typography>User Experience Designer</Typography>
+              </Stack>
+            </StyledNavLink>
+          </div>
         </div>
         <div style={{ display: "flex" }}>
           <StyledNavLink to="/about">
@@ -56,6 +53,16 @@ const NavBar = () => {
       </div>
     </div>
   );
-};
+})`
+  & .navContainer {
+    display: flex;
+    border-top: 5px solid ${({ theme }) => theme.palette.primary.main};
+    border-bottom: 5px solid ${({ theme }) => theme.palette.primary.main};
+  }
+
+  & .navMain {
+    box-shadow: inset 0px 12px ${({ theme }) => theme.palette.primary.main};
+  }
+`;
 
 export default NavBar;

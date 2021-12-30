@@ -1,13 +1,16 @@
-import { Card, CardHeader, Grid, Typography } from "@mui/material";
+import { Card, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import StyledHeader from "../../Components/StyledHeader";
 import { IProject } from "./Projects";
 
 const ProjectCard = ({ project }: { project: IProject }) => {
   const [isHover, setIsHover] = useState(false);
   return (
     <>
-      <Typography fontSize={25}>{project.name}</Typography>
+      <StyledHeader fontSize={25} style={{ marginBottom: "5px" }}>
+        {project.name}
+      </StyledHeader>
       <Link to={`/projects/${project.id}`}>
         <Card
           square
@@ -32,7 +35,7 @@ const ProjectCard = ({ project }: { project: IProject }) => {
 
 const ProjectCollection = ({ projects }: { projects: IProject[] }) => {
   return (
-    <Grid container spacing={4}>
+    <Grid container columnSpacing={2} rowSpacing={2}>
       {projects.map((project) => (
         <Grid key={project.name} item md={6} xs={12}>
           <ProjectCard project={project} />

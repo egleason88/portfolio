@@ -1,6 +1,8 @@
-import { Divider, Grid, Stack, Typography } from "@mui/material";
+import { Grid, Stack, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import StyledDivider from "../../Components/StyledDivider";
+import StyledHeader from "../../Components/StyledHeader";
 import { IProject, Projects } from "./Projects";
 
 const ProjectPage = () => {
@@ -10,38 +12,53 @@ const ProjectPage = () => {
     setProject(Projects.find((x) => x.id === id));
   }, [id]);
   return (
-    <Stack style={{ paddingTop: "20px" }} spacing={3}>
-      <Typography variant="h1" fontSize={40}>
+    <Stack spacing={3}>
+      <StyledHeader variant="h1" fontSize={40}>
         {project?.name}
-      </Typography>
+      </StyledHeader>
       <Grid container spacing={3}>
         <Grid item xs={12} md={4}>
           <Stack>
-            <Typography variant="h2" fontSize={30} fontWeight={400}>
+            <StyledHeader
+              variant="h2"
+              fontSize={30}
+              fontWeight={400}
+              style={{ marginBottom: "5px" }}
+            >
               Overview
-            </Typography>
+            </StyledHeader>
             <Typography>{project?.overview}</Typography>
           </Stack>
         </Grid>
         <Grid item xs={12} md={4}>
           <Stack>
-            <Typography variant="h2" fontSize={30} fontWeight={400}>
+            <StyledHeader
+              variant="h2"
+              fontSize={30}
+              fontWeight={400}
+              style={{ marginBottom: "5px" }}
+            >
               Challenge
-            </Typography>
+            </StyledHeader>
             <Typography>{project?.challenge}</Typography>
           </Stack>
         </Grid>
         <Grid item xs={12} md={4}>
           <Stack>
-            <Typography variant="h2" fontSize={30} fontWeight={400}>
+            <StyledHeader
+              variant="h2"
+              fontSize={30}
+              fontWeight={400}
+              style={{ marginBottom: "5px" }}
+            >
               Results
-            </Typography>
+            </StyledHeader>
             <Typography>{project?.results}</Typography>
           </Stack>
         </Grid>
       </Grid>
-      <Divider style={{ borderBottom: "3px solid teal" }} />
-      <Grid container spacing={3}>
+      <StyledDivider />
+      <Grid container justifyContent={"space-evenly"}>
         {project?.activities.map((activity, i) => (
           <Grid key={i} item>
             <Typography variant="h3" fontSize={25} fontWeight={200}>
@@ -50,11 +67,13 @@ const ProjectPage = () => {
           </Grid>
         ))}
       </Grid>
-      <Divider style={{ borderBottom: "3px solid teal", paddingTop: "20px" }} />
-      <Grid container spacing={6}>
+      <StyledDivider />
+      <Grid container spacing={2}>
         {project?.images.map((projectImg, i) => (
           <Grid key={i} item xs={12} md={4}>
-            <Typography fontSize={20}>{projectImg.title}</Typography>
+            <StyledHeader fontSize={20} style={{ marginBottom: "5px" }}>
+              {projectImg.title}
+            </StyledHeader>
             <img
               src={projectImg.img}
               alt="Project"

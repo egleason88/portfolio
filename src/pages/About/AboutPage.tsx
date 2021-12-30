@@ -1,14 +1,15 @@
 import { Grid, Stack, Typography } from "@mui/material";
+import StyledHeader from "../../Components/StyledHeader";
 
 const AboutPage = () => {
   return (
-    <Stack spacing={3}>
-      <Grid container spacing={12}>
+    <Stack>
+      <StyledHeader variant={"h1"} fontSize={30}>
+        About me
+      </StyledHeader>
+      <Grid container spacing={2}>
         <Grid item md={6} xs={12}>
           <Stack spacing={2} style={{ paddingTop: "20px" }}>
-            <Typography variant={"h1"} fontSize={30}>
-              About me
-            </Typography>
             <Typography>
               After graduating with a BaHons in Industrial Design and a Masters
               in Ergonomics / Human Factors from Loughborough University, I
@@ -30,10 +31,10 @@ const AboutPage = () => {
           </Stack>
         </Grid>
         <Grid item md={6} xs={12}>
-          <Stack spacing={2} style={{ paddingTop: "60px" }}>
-            <Typography variant={"h2"} fontSize={24}>
+          <Stack spacing={2}>
+            <StyledHeader variant={"h2"} fontSize={24}>
               Key Skills
-            </Typography>
+            </StyledHeader>
             <ul>
               <li>
                 <Typography>
