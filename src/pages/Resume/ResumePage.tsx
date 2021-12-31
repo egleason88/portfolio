@@ -21,7 +21,7 @@ needs of users, delivering solutions that make a positive impact within our appl
                 <StyledHeader variant="h2" fontSize={30}>Education</StyledHeader>
                 <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Resume/university.png"
+            src="/images/Resume/university.png"
             alt="desc"
             width={"20%"}
             height={"auto"}
@@ -43,7 +43,7 @@ needs of users, delivering solutions that make a positive impact within our appl
                 <StyledHeader variant="h2" fontSize={30}>Key Skills</StyledHeader>
                 <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Resume/pencil.png"
+            src="/images/Resume/pencil.png"
             alt="desc"
             width={"20%"}
             height={"auto"}
@@ -60,7 +60,7 @@ needs of users, delivering solutions that make a positive impact within our appl
                 </div>
                 <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Resume/research.png"
+            src="/images/Resume/research.png"
             alt="desc"
             width={"20%"}
             height={"auto"}
@@ -151,7 +151,7 @@ needs of users, delivering solutions that make a positive impact within our appl
         </Grid>
       </Stack>
       <a
-        href="/portfolio/EGleason resume.pdf"
+        href="/EGleason resume.pdf"
         download={"Elizabeth Gleason Resume.pdf"}
         style={{ position: "fixed", right: "25px", bottom: "25px" }}
       >
