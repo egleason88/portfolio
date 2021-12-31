@@ -12,7 +12,7 @@ const ProjectPage = () => {
     setProject(Projects.find((x) => x.id === id));
   }, [id]);
   return (
-    <Stack spacing={3}>
+    <Stack spacing={3} paddingTop={1}>
       <StyledHeader variant="h1" fontSize={40}>
         {project?.name}
       </StyledHeader>

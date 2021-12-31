@@ -14,7 +14,7 @@ const StyledContainer = styled(Container)`
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <StyledContainer maxWidth="xl">
         <NavBar />
         <div style={{ marginTop: "20px" }}>

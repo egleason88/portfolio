@@ -4,15 +4,15 @@ import StyledHeader from "../../Components/StyledHeader";
 const AboutPage = () => {
   return (
     <Stack>
-      <StyledHeader variant={"h1"} fontSize={30}>
+      <StyledHeader variant={"h1"} fontSize={30} style={{ paddingTop: "10px"}}>
         About me
       </StyledHeader>
       <Grid container spacing={2}>
         <Grid item md={6} xs={12}>
-          <Stack spacing={2} style={{ paddingTop: "20px" }}>
+          <Stack spacing={2} style={{ paddingTop: "40px"}}>
             <Typography>
-              After graduating with a BaHons in Industrial Design and a Masters
-              in Ergonomics / Human Factors from Loughborough University, I
+              I grew up in the UK and after graduating with a BaHons in Industrial Design and a Masters
+              in Ergonomics/Human Factors from Loughborough University, I
               joined QinetiQ as a Human Factors Consultant.
             </Typography>
             <Typography>
@@ -20,18 +20,17 @@ const AboutPage = () => {
               of Defence, Civil Aviation industry and the London Underground
               fully immersed me in the world of human factors and design,
               leading me to never being able to look at products and systems the
-              same way again
+              same way again.
             </Typography>
             <Typography>
-              As well as being a UX designer, I am a mum who loves to travel
+            I moved to the US in 2006 and as well as being a UX designer, I am a mum who loves to travel
               with her son, both in the USA and abroad, I can also be seen
-              drawing on my ipad and throwing the odd cake in the oven, not at
-              the same time
+              drawing on my ipad and throwing the odd cake in the oven.
             </Typography>
           </Stack>
         </Grid>
         <Grid item md={6} xs={12}>
-          <Stack spacing={2}>
+          <Stack spacing={2} style={{ paddingTop: "10px"}}>
             <StyledHeader variant={"h2"} fontSize={24}>
               Key Skills
             </StyledHeader>
@@ -64,30 +63,30 @@ const AboutPage = () => {
           </Stack>
         </Grid>
       </Grid>
-      <Grid container spacing={3}>
+      <Grid container spacing={4} style={{ paddingTop: "40px"}} paddingLeft={20}>
         <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Beacon/Beacon1.png"
+            src="/portfolio/images/Homepage/picture.png"
             alt="desc"
-            width={"100%"}
+            width={"80%"}
             height={"auto"}
             style={{ objectFit: "cover" }}
           />
         </Grid>
         <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Beacon/Beacon1.png"
+            src="/portfolio/images/Aboutme/Picture2.jpg"
             alt="desc"
-            width={"100%"}
+            width={"80%"}
             height={"auto"}
             style={{ objectFit: "cover" }}
           />
         </Grid>
         <Grid item xs={12} md={4}>
           <img
-            src="/portfolio/images/Beacon/Beacon1.png"
+            src="/portfolio/images/Aboutme/Picture1.png"
             alt="desc"
-            width={"100%"}
+            width={"50%"}
             height={"auto"}
             style={{ objectFit: "cover" }}
           />

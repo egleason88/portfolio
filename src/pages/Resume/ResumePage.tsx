@@ -1,12 +1,13 @@
 import { Fab, Grid, Stack, Typography } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
+import StyledHeader from "../../Components/StyledHeader";
 
 const ResumePage = () => {
   return (
     <>
-      <Stack>
+      <Stack spacing={3}>
         <Stack style={{ paddingTop: "10px" }} spacing={2}>
-          <Typography variant="h1" fontSize={40}>Profile</Typography>
+          <StyledHeader variant="h1" fontSize={40}>Profile</StyledHeader>
           <Typography>I am a User Experience Designer with a background in Human Factors and Industrial Design. In my current role I contribute
 to all phases of product development including user research, wire framing and mockups, usability testing, prototyping and
 post release feedback. Working with an agile, continuous discovery methodology allows me to understand and meet the
@@ -14,9 +15,19 @@ needs of users, delivering solutions that make a positive impact within our appl
         </Stack>
         <Grid container>
           <Grid item xs={12} md={6}>
+          
             <Stack>
-              <Stack style={{ paddingTop: "40px" }} spacing={2}>
-                <Typography variant="h2" fontSize={30}>Education</Typography>
+              <Stack style={{ paddingTop: "0px" }} spacing={2}>
+                <StyledHeader variant="h2" fontSize={30}>Education</StyledHeader>
+                <Grid item xs={12} md={4}>
+          <img
+            src="/portfolio/images/Resume/university.png"
+            alt="desc"
+            width={"20%"}
+            height={"auto"}
+            style={{ objectFit: "cover" }}
+          />
+        </Grid>
                 <div>
                   <Typography fontSize={20}>Master of Science -</Typography>
                   <Typography fontSize={20} fontWeight={800}>Human Factors</Typography>
@@ -29,26 +40,44 @@ needs of users, delivering solutions that make a positive impact within our appl
                 </div>
               </Stack>
               <Stack style={{ paddingTop: "40px" }} spacing={2}>
-                <Typography variant="h2" fontSize={30}>Key Skills</Typography>
+                <StyledHeader variant="h2" fontSize={30}>Key Skills</StyledHeader>
+                <Grid item xs={12} md={4}>
+          <img
+            src="/portfolio/images/Resume/pencil.png"
+            alt="desc"
+            width={"20%"}
+            height={"auto"}
+            style={{ objectFit: "cover" }}
+          />
+        </Grid>
                 <div>
-                  <Typography variant="h3" fontSize={20} fontWeight={800}>Technology</Typography>
-                  <Typography fontSize={20}>Sketch</Typography>
-                  <Typography fontSize={20}>Figma</Typography>
-                  <Typography fontSize={20}>Omnigraffle</Typography>
-                  <Typography fontSize={20}>Adobe XD</Typography>
-                  <Typography fontSize={20}>AppCues</Typography>
+                  <Typography variant="h3" fontSize={20} fontWeight={800}></Typography>
+                  <Typography fontSize={18}>Sketch</Typography>
+                  <Typography fontSize={18}>Figma</Typography>
+                  <Typography fontSize={18}>Omnigraffle</Typography>
+                  <Typography fontSize={18}>Adobe XD</Typography>
+                  <Typography fontSize={18}>AppCues</Typography>
                 </div>
+                <Grid item xs={12} md={4}>
+          <img
+            src="/portfolio/images/Resume/research.png"
+            alt="desc"
+            width={"20%"}
+            height={"auto"}
+            style={{ objectFit: "cover" }}
+          />
+        </Grid>
                 <div>
-                  <Typography variant="h3" fontSize={20} fontWeight={800}>Activities</Typography>
-                  <Typography fontSize={20}>User Research / Interviews</Typography>
-                  <Typography fontSize={20}>Continuous Discovery</Typography>
-                  <Typography fontSize={20}>Cross Team Collaboration</Typography>
-                  <Typography fontSize={20}>User Empathy</Typography>
-                  <Typography fontSize={20}>Usability Testing</Typography>
-                  <Typography fontSize={20}>Accessibility Audits</Typography>
-                  <Typography fontSize={20}>Task Analysis</Typography>
-                  <Typography fontSize={20}>Wireframes and Mockups</Typography>
-                  <Typography fontSize={20}>Prototyping</Typography>
+                  <Typography variant="h3" fontSize={20} fontWeight={800}></Typography>
+                  <Typography fontSize={18}>User Research / Interviews</Typography>
+                  <Typography fontSize={18}>Continuous Discovery</Typography>
+                  <Typography fontSize={18}>Cross Team Collaboration</Typography>
+                  <Typography fontSize={18}>User Empathy</Typography>
+                  <Typography fontSize={18}>Usability Testing</Typography>
+                  <Typography fontSize={18}>Accessibility Audits</Typography>
+                  <Typography fontSize={18}>Task Analysis</Typography>
+                  <Typography fontSize={18}>Wireframes and Mockups</Typography>
+                  <Typography fontSize={18}>Prototyping</Typography>
                 </div>
               </Stack>
             </Stack>
@@ -57,16 +86,15 @@ needs of users, delivering solutions that make a positive impact within our appl
             item
             xs={12}
             md={6}
-            style={{ boxShadow: "inset 10px 0px #000", paddingLeft: "15px " }}
+            style={{ boxShadow: "inset 10px 0px #000", paddingLeft: "40px " }}
           >
-            <Stack>
-              <Typography variant="h2" fontSize={30}>Work Experience</Typography>
+            <Stack style={{ paddingTop: "0px" }} spacing={2}>
+              <StyledHeader variant="h2" fontSize={30}>Work Experience</StyledHeader>
               <div>
                 <Typography variant="h3" fontSize={20}>
                   <b>Anthology</b> Buffalo, NY 2018 - Present
                 </Typography>
-                <Typography variant="h4" fontSize={20}>Senior UX Designer</Typography>
-                <Typography fontSize={20}>Working on various applications for higher education</Typography>
+                <Typography variant="h4" fontSize={18} fontStyle={"italic"}>Senior UX Designer</Typography>
                 <ul>
                   <li>Lead UX designer on Continuous Discovery product team</li>
                   <li>Conduct User Interviews and research</li>
@@ -81,7 +109,7 @@ needs of users, delivering solutions that make a positive impact within our appl
                 <Typography variant="h3" fontSize={20}>
                   <b>Strauss Group</b> Buffalo, NY 2018 - Present
                 </Typography>
-                <Typography variant="h4" fontSize={20}>Executive Search Consultant</Typography>
+                <Typography variant="h4" fontSize={18} fontStyle={"italic"}>Executive Search Consultant</Typography>
                 <ul>
                   <li>Manage 360 desk</li>
                   <li>Business development</li>
@@ -92,22 +120,22 @@ needs of users, delivering solutions that make a positive impact within our appl
                 <Typography variant="h3" fontSize={20}>
                   <b>Iroquois Central School District</b> Elma, NY - 2015 - 2018
                 </Typography>
-                <Typography variant="h4" fontSize={20}>Teacher Aide</Typography>
+                <Typography variant="h4" fontSize={18} fontStyle={"italic"}>Teacher Aide</Typography>
                 <ul></ul>
               </div>
               <div>
               <Typography variant="h3" fontSize={20}>
                   <b>English Tea Ladies</b> Elma, NY 2009 - 2016
                 </Typography>
-                <Typography variant="h4" fontSize={20}>Owner of catering business</Typography>
+                <Typography variant="h4" fontSize={18} fontStyle={"italic"}>Owner of catering business</Typography>
                 <ul></ul>
               </div>
               <div>
               <Typography variant="h3" fontSize={20}>
-                  <b>QINETIQ</b> (formerly Defence Evaluation Research Agency)
-Farnborough, UK - 2001 - 2006
+                  <b>QINETIQ</b> <i>(formerly Defence Evaluation Research Agency)</i>
+ <Typography variant="h3" fontSize={20}>Farnborough, UK - 2001 - 2006</Typography>
                 </Typography>
-                <Typography variant="h4" fontSize={20}>Lead Human Factors Consultant and Assistant Design Lead</Typography>
+                <Typography variant="h4" fontSize={18} fontStyle={"italic"}>Lead Human Factors Consultant and Assistant Design Lead</Typography>
                 <ul>
                   <li>HF Evaluations of all land platforms in the British Army.</li>
                   <li>Wrote Human Factors Integration Management plan (HFIMP) 
@@ -123,7 +151,7 @@ Farnborough, UK - 2001 - 2006
         </Grid>
       </Stack>
       <a
-        href="/portfolio/resume.pdf"
+        href="/portfolio/EGleason resume.pdf"
         download={"Elizabeth Gleason Resume.pdf"}
         style={{ position: "fixed", right: "25px", bottom: "25px" }}
       >
