@@ -88,9 +88,9 @@ export const Projects = [
     ],
     images: [
       { img: "/images/Insight/Tree1.png", title: "Continous discovery" },
-      { img: "/images/Insight/Insight2.png", title: "Wire frames" },
-      { img: "/images/Insight/Insight1.png", title: "Wire frames" },
-      { img: "/images/Insight/Insight3.png", title: "Wire frames" },
+      { img: "/images/Insight/Insight2.png", title: "Wireframes" },
+      { img: "/images/Insight/Insight1.png", title: "Wireframes" },
+      { img: "/images/Insight/Insight3.png", title: "Wireframes" },
       { img: "/images/Insight/Insight4.png", title: "User feedback" },
       { img: "/images/Insight/Insight6.png", title: "Released design" },
     ],
@@ -109,7 +109,7 @@ export const Projects = [
       "User Feedback",
     ],
     images: [
-      { img: "/images/Blackboard/Bb1.png", title: "Wire frames" },
+      { img: "/images/Blackboard/Bb1.png", title: "Wireframes" },
       { img: "/images/Blackboard/Bb2.png", title: "Mock ups" },
       { img: "/images/Blackboard/Bb3.png", title: "Mock ups" },
       { img: "/images/Blackboard/Bb4.png", title: "Mock ups" },

@@ -98,7 +98,7 @@ needs of users, delivering solutions that make a positive impact within our appl
                 <ul>
                   <li>Lead UX designer on Continuous Discovery product team</li>
                   <li>Conduct User Interviews and research</li>
-                  <li>Create wire frames and mockups</li>
+                  <li>Create wireframes and mockups</li>
                   <li>Conduct usability studies</li>
                   <li>Create personas and user journeys</li>
                   <li>Manage accessibility audits</li>

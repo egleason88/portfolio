@@ -75,7 +75,7 @@ const AboutPage = () => {
         </Grid>
         <Grid item xs={12} md={4}>
           <img
-            src="/images/Aboutme/Picture2.jpg"
+            src="/images/Aboutme/Picture2.JPG"
             alt="desc"
             width={"80%"}
             height={"auto"}

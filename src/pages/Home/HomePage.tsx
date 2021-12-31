@@ -27,7 +27,7 @@ const HomePage = () => (
           <Typography>
             An experienced UX Designer with a demonstrated history of working in
             the research industry and higher education. Skilled in User Research
-            and Testing, Continuous discovery, Wire frames, Mockup, Prototyping and Agile Methodology.
+            and Testing, Continuous discovery, Wireframes, Mockup, Prototyping and Agile Methodology.
           </Typography>
           <Typography>
             Graduating with a degree in <b>Industrial Design</b> and a Master of
