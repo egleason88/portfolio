@@ -9,7 +9,7 @@ const HomePage = () => (
     <Grid container spacing={2} paddingTop={4} paddingLeft={4}>
       <Grid item md={3} xs={12}>
       <img
-            src="/images/Homepage/picture2.png"
+            src="/images/Homepage/picture2.webp"
             alt="desc"
             width={"60%"}
             height={"auto"}

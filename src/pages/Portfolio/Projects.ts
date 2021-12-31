@@ -14,7 +14,7 @@ export const Projects = [
   {
     id: "data-discovery",
     name: "Data Discovery",
-    img: "/images/data-discovery/Datadiscovery3.png",
+    img: "/images/data-discovery/Datadiscovery3.webp",
     overview:
       "An app was needed to allow Anthology users to search for datasets stored within our Data Hub.",
     challenge:
@@ -30,19 +30,19 @@ export const Projects = [
     ],
     images: [
       {
-        img: "/images/data-discovery/Datadiscovery1.png",
+        img: "/images/data-discovery/Datadiscovery1.webp",
         title: "Wireframes",
       },
       {
-        img: "/images/data-discovery/Datadiscovery2.png",
+        img: "/images/data-discovery/Datadiscovery2.webp",
         title: "Initial user feedback",
       },
       {
-        img: "/images/data-discovery/Datadiscovery5.png",
+        img: "/images/data-discovery/Datadiscovery5.webp",
         title: "Released design awaiting user feedback",
       },
       {
-        img: "/images/data-discovery/Datadiscovery6.png",
+        img: "/images/data-discovery/Datadiscovery6.webp",
         title: "Released design awaiting user feedback",
       },
     ],
@@ -50,7 +50,7 @@ export const Projects = [
   {
     id: "beacon",
     name: "Beacon",
-    img: "/images/Beacon/Beacon4.png",
+    img: "/images/Beacon/Beacon4.webp",
     overview:
       "Anthology Beacon is used on campus to alert faculty to at risk students. A recent redesign of the alert page had received poor user feedback that needed to be addressed.",
     challenge:
@@ -64,16 +64,16 @@ export const Projects = [
       "User testing",
     ],
     images: [
-      { img: "/images/Beacon/Beacon5.png", title: "Initial discovery" },
-      { img: "/images/Beacon/User persona beacon.jpg", title: "User persona" },
-      { img: "/images/Beacon/Beacon6.png", title: "Decision tree" },
-      { img: "/images/Beacon/Beacon7.png", title: "Released design" },
+      { img: "/images/Beacon/Beacon5.webp", title: "Initial discovery" },
+      { img: "/images/Beacon/User persona beacon.webp", title: "User persona" },
+      { img: "/images/Beacon/Beacon6.webp", title: "Decision tree" },
+      { img: "/images/Beacon/Beacon7.webp", title: "Released design" },
     ],
   },
   {
     id: "insight",
     name: "Insight",
-    img: "/images/Insight/Insight5.png",
+    img: "/images/Insight/Insight5.webp",
     overview:
       "Insight brings data together from various solutions (both Anthology and non-Anthology) and helps institutions identify trends to inform decisions. It provides consumable, shareable data and insights to institutional leadership that they are not able to gain from looking at data in a silo.",
     challenge:
@@ -87,18 +87,18 @@ export const Projects = [
       "User Testing",
     ],
     images: [
-      { img: "/images/Insight/Tree1.png", title: "Continous discovery" },
-      { img: "/images/Insight/Insight2.png", title: "Wireframes" },
-      { img: "/images/Insight/Insight1.png", title: "Wireframes" },
-      { img: "/images/Insight/Insight3.png", title: "Wireframes" },
-      { img: "/images/Insight/Insight4.png", title: "User feedback" },
-      { img: "/images/Insight/Insight6.png", title: "Released design" },
+      { img: "/images/Insight/Tree1.webp", title: "Continous discovery" },
+      { img: "/images/Insight/Insight2.webp", title: "Wireframes" },
+      { img: "/images/Insight/Insight1.webp", title: "Wireframes" },
+      { img: "/images/Insight/Insight3.webp", title: "Wireframes" },
+      { img: "/images/Insight/Insight4.webp", title: "User feedback" },
+      { img: "/images/Insight/Insight6.webp", title: "Released design" },
     ],
   },
   {
     id: "blackboard",
     name: "Blackboard",
-    img: "/images/Blackboard/Bb1.png",
+    img: "/images/Blackboard/Bb1.webp",
     overview: "Blackboard Ultra is a Learning Management System used on campus by both faculty and students to track courses and course assignments.",
     challenge: "Currently users have to recreate questions every time they want to reuse them in an assignment or test. There are a number of areas within the app that the addidtion of question banks affects and extensive research and testing was needed to deterine what functionality was needed from this feature.",
     results: "Users are satisfied with the feature and it's functionality, In app feedback is still gathering data.",
@@ -109,10 +109,10 @@ export const Projects = [
       "User Feedback",
     ],
     images: [
-      { img: "/images/Blackboard/Bb1.png", title: "Wireframes" },
-      { img: "/images/Blackboard/Bb2.png", title: "Mock ups" },
-      { img: "/images/Blackboard/Bb3.png", title: "Mock ups" },
-      { img: "/images/Blackboard/Bb4.png", title: "Mock ups" },
+      { img: "/images/Blackboard/Bb1.webp", title: "Wireframes" },
+      { img: "/images/Blackboard/Bb2.webp", title: "Mock ups" },
+      { img: "/images/Blackboard/Bb3.webp", title: "Mock ups" },
+      { img: "/images/Blackboard/Bb4.webp", title: "Mock ups" },
     ],
   },
 ] as IProject[];

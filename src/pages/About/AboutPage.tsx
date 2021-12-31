@@ -66,7 +66,7 @@ const AboutPage = () => {
       <Grid container spacing={4} style={{ paddingTop: "40px"}} paddingLeft={20}>
         <Grid item xs={12} md={4}>
           <img
-            src="/images/Homepage/picture.png"
+            src="/images/Homepage/picture.webp"
             alt="desc"
             width={"80%"}
             height={"auto"}
@@ -75,7 +75,7 @@ const AboutPage = () => {
         </Grid>
         <Grid item xs={12} md={4}>
           <img
-            src="/images/Aboutme/Picture2.JPG"
+            src="/images/Aboutme/Picture2.webp"
             alt="desc"
             width={"80%"}
             height={"auto"}
@@ -84,7 +84,7 @@ const AboutPage = () => {
         </Grid>
         <Grid item xs={12} md={4}>
           <img
-            src="/images/Aboutme/Picture1.png"
+            src="/images/Aboutme/Picture1.webp"
             alt="desc"
             width={"50%"}
             height={"auto"}
