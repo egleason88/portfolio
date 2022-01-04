@@ -56,7 +56,6 @@ const AboutPage = () => {
                 <Typography>
                   Continuous Discovery - using an agile methodology and working in cross functional teams to
                 develop solutions
-                  feedback
                 </Typography>
               </li>
             </ul>
