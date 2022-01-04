@@ -75,7 +75,7 @@ export const Projects = [
     name: "Insight",
     img: "/images/Insight/Insight5.webp",
     overview:
-      "Insight brings data together from various solutions (both Anthology and non-Anthology) and helps institutions identify trends to inform decisions. It provides consumable, shareable data and insights to institutional leadership that they are not able to gain from looking at data in a silo.",
+      "Insight brings data together from various solutions and helps institutions identify trends to inform decisions. It provides consumable, shareable data and insights to institutional leadership that they are not able to gain from looking at data in a silo.",
     challenge:
       "Through the process of continuous discovery it was determined users needed quicker and easier ways to create visualisations and dashboards. Saving, adding and reusing slices and dimensions was one of the solutions we offered to our users.",
     results:
