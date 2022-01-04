@@ -57,7 +57,7 @@ export const Projects = [
       "Users were already frustrated with the initial redesign, time needed to be spent to look at what they needed and include them in the design process. It was determined that we needed to make it easier for faculty and advisors to report and monitor alerts.",
     results: "Based on in app user feedback, 96% of users agreed that the redesign was easier to use",
     activities: [
-      "Continous Discovery",
+      "Continuous Discovery",
       "User Research",
       "Create Personas",
       "User interviews",
@@ -79,7 +79,7 @@ export const Projects = [
     challenge:
       "Through the process of continuous discovery it was determined users needed quicker and easier ways to create visualisations and dashboards. Saving, adding and reusing slices and dimensions was one of the solutions we offered to our users.",
     results:
-      "Through in app feedback we determned 100% positive response to the changes we had made.",
+      "Through in app feedback we determined 100% positive response to the changes we had made.",
     activities: [
       "Continuous Discovery",
       "Task Analysis",
@@ -87,7 +87,7 @@ export const Projects = [
       "User Testing",
     ],
     images: [
-      { img: "/images/Insight/Tree1.webp", title: "Continous discovery" },
+      { img: "/images/Insight/Tree1.webp", title: "Continuous discovery" },
       { img: "/images/Insight/Insight2.webp", title: "Wireframes" },
       { img: "/images/Insight/Insight1.webp", title: "Wireframes" },
       { img: "/images/Insight/Insight3.webp", title: "Wireframes" },
