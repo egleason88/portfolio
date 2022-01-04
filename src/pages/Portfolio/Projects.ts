@@ -54,7 +54,7 @@ export const Projects = [
     overview:
       "Anthology Beacon is used on campus to alert faculty to at risk students. A recent redesign of the alert page had received poor user feedback that needed to be addressed.",
     challenge:
-      "Users were already frustrated with the initial redesign, time needed to be spent to look at what they needed and include them in the design process. It was determined that we needed to make it easier for faculty and advisors to report and monitor alerts.",
+      "Users were already frustrated with the initial redesign, time needed to be spent including them in the design process to look at what they needed. It was determined that we needed to make it easier for faculty and advisors to report and monitor alerts.",
     results: "Based on in app user feedback, 96% of users agreed that the redesign was easier to use",
     activities: [
       "Continuous Discovery",

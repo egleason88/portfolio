@@ -54,8 +54,8 @@ const AboutPage = () => {
               </li>
               <li>
                 <Typography>
-                  Continuous Discovery - always looking at what we can do to
-                  make a users experience better, through both user research and
+                  Continuous Discovery - using an agile methodology and working in cross functional teams to
+                develop solutions
                   feedback
                 </Typography>
               </li>
