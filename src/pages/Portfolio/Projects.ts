@@ -100,7 +100,7 @@ export const Projects = [
     name: "Blackboard",
     img: "/images/Blackboard/Bb1.webp",
     overview: "Blackboard Ultra is a Learning Management System used on campus by both faculty and students to track courses and course assignments.",
-    challenge: "Currently users have to recreate questions every time they want to reuse them in an assignment or test. There are a number of areas within the app that the addidtion of question banks affects and extensive research and testing was needed to deterine what functionality was needed from this feature.",
+    challenge: "Currently users have to recreate questions every time they want to reuse them in an assignment or test. There are a number of areas within the app that the addition of question banks affects and extensive research and testing was needed to determine what functionality was needed from this feature.",
     results: "Users are satisfied with the feature and it's functionality, In app feedback is still gathering data.",
     activities: [
       "User Research",
